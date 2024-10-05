@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İşçi Vakansiya Qeydiyyatı</title>
+    <link rel="stylesheet" href="diyazn.css">
+</head>
+<body>
+    <div class="container">
+        <h2>İşçi Vakansiya Qeydiyyatı</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <!-- Ad və Soyad -->
+            <label for="name">Ad və Soyad:</label>
+            <input type="text" id="name" name="name" placeholder="Ad və Soyadınızı daxil edin" required>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email ünvanınızı daxil edin" required>
+
+            <!-- Telefon nömrəsi -->
+            <label for="phone">Telefon Nömrəsi:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Telefon nömrənizi daxil edin" required>
+
+            <!-- Şirkət -->
+            <label for="position">Vakansiya:</label>
+            <input type="text" id="position" name="position" placeholder="Müraciət etdiyiniz vakansiya" required>
+
+            <!-- CV yükləmə -->
+            <label for="cv">CV Yüklə:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required>
+
+            <!-- Göndər düyməsi -->
+            <input type="submit" value="Qeydiyyatdan keç">
+        </form>
+    </div>
+</body>
+</html>
